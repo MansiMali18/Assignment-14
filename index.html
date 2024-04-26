@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 14</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        .box
+        {
+            border-style: solid ;
+            border-color: 	 #440066;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px 400px 10px 400px;
+            color: #440066;
+            background-color:#f7e6ff ;
+            text-align: center;
+            box-shadow: 10px 10px 1px 1px  #330066;
+            font-size: 25px;
+            font-family: Dancing Script;
+        }
+        .box:hover {
+        background-color: #ffe6f7;
+        
+      }
+      .btn
+      {
+        color: #000d33;
+        border-style: double;
+        border-radius: 20px;
+        padding: 10px 10px 10px 10px;
+        border-color: #000d33;
+        background-color: #d9ffb3;
+        width: 100px;
+        height:60px;
+        font-family: Dancing Script;
+        font-size: 25px;
+      }
+      .btn:hover
+      {
+            width: 150px;
+            height: 100px;
+            border-radius: 30px;
+      }
+    </style>
+</head>
+<body>
+    <div class="box">
+        User registration form
+            <form>
+                <label for="name">Enter  name : &emsp; &emsp; </label>
+                <input type="text" id="name" required="true">
+                <br>
+                <label for="email">Enter Email :&emsp; &emsp;  </label>
+                <input type ="email" id="email" required="true">
+                <br>
+                <label for="phone">Enter Phone no. :&emsp;     </label>
+                <input type="text"  id="phone" required="true">
+                <br>
+                <label for="pwd">Enter password :  &emsp; </label>
+                <input type="password" id="pwd" required="true">
+                 <br>
+                <label for="age">Enter age :   &emsp; &emsp;  &emsp; </label>
+                <input type="number" id="age" required="true">
+                <br>
+                <label for="add">Enter address :  &emsp;&emsp; </label>
+                <input type="text" id="add" required="true">
+                <br>
+    
+                
+                <br>
+            </form>
+         <button class="btn">Submit </button>
+    </div>
+</body>
+</html>
